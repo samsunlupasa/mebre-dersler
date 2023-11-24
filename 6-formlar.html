@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formlar</title>
+  </head>
+  <body>
+    <form>
+      <input type="text" placeholder="Ad" /><br /><br />
+      <input type="text" placeholder="Soyad" /><br /><br />
+      <input type="password" placeholder="Şifre" /><br /><br />
+      <input type="email" placeholder="email" /><br /><br />
+      html <input type="checkbox" /><br /><br />
+      css <input type="checkbox" /><br /><br />
+      evet <input type="radio" name="soru" /><br /><br />
+      hayır <input type="radio" name="soru" /><br /><br />
+      kız <input type="radio" name="cinsiyet" /><br /><br />
+      erkek <input type="radio" name="cinsiyet" /><br /><br />
+      belirsiz <input type="radio" name="cinsiyet" /><br /><br />
+      <input type="file" multiple /><br /><br />
+      <textarea cols="50" rows="20"></textarea><br /><br />
+      <select>
+        <option>fenerbahçe</option>
+        <option>galatasaray</option></select
+      ><br /><br />
+      <input type="submit" value="GÖNDER" />
+      <input type="reset" value="TEMİZLE" />
+    </form>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <form>
+      <label>Ad: </label>
+      <input type="text" placeholder="Ad" />
+      <label>Soyad: </label>
+      <input type="text" placeholder="soyad" />
+    </form>
+    <br /><br />
+
+    <form>
+      <label>Araba seç: </label>
+      <select>
+        <optgroup label="Ucuz araçlar">
+          <option>Volvo</option>
+          <option>Wolkswagen</option>
+        </optgroup>
+        <optgroup label="Pahalı araçlar">
+          <option>Mercedes</option>
+          <option>Audi</option>
+        </optgroup>
+      </select>
+      <input type="submit" value="Gönder" />
+    </form>
+    <br /><br />
+
+    <form>
+      <input list="takimlar" />
+      <datalist id="takimlar">
+        <option value="Fb"></option>
+        <option value="Gs"></option>
+        <option value="Bjk"></option>
+      </datalist>
+
+      <input type="submit" />
+    </form>
+    <br /><br />
+
+    <form>
+      <fieldset>
+        <legend>Personel Bilgileri</legend>
+        <label>Ad: </label>
+        <input type="text" /><br /><br />
+        <label>Soyad: </label>
+        <input type="text" /><br /><br />
+        <label>Email: </label>
+        <input type="email" /><br /><br />
+        <label>Doğum Tarihi: </label>
+        <input type="date" /><br /><br />
+        <input type="submit" value="GÖNDER" />
+      </fieldset>
+    </form>
+    <br /><br />
+
+    <form>
+      <label>Renk seçiniz: </label>
+      <input type="color" value="#ff0000" />
+      <input type="submit" value="GÖNDER" />
+    </form>
+    <br /><br />
+
+    <form>
+      <label>Zaman seç</label>
+      <input type="datetime-local" />
+      <input type="submit" value="GÖNDER" />
+    </form>
+    <br /><br />
+
+    <form>
+      <label>Başlangıç tarihi seç</label>
+      <input type="date" min="2000-01-01" max="2005-01-01" />
+      <label>Bitiş tarihi seç</label>
+      <input type="date" min="2005-01-01" max="2010-01-01" />
+      <input type="submit" value="GÖNDER" />
+    </form>
+    <br /><br />
+
+    <form>
+      <input type="time" />
+    </form>
+    <br /><br />
+
+    <form>
+      <input type="month" />
+    </form>
+    <br /><br />
+
+    <form>
+      <input type="number" min="0" max="100" step="20" required />
+      <input type="submit" value="GÖNDER" />
+    </form>
+    <br /><br />
+
+    <form>
+      <input type="range" min="10" max="100" />
+    </form>
+    <br /><br />
+
+    <form>
+      <input type="search" />
+    </form>
+    <br /><br />
+
+    <form>
+      <input type="text" disabled value="adasdsa" />
+      <input type="submit" value="GÖNDER" />
+    </form>
+    <br /><br />
+
+    <form>
+      <input type="text" maxlength="12" minlength="5" />
+      <input type="submit" value="GÖNDER" />
+    </form>
+    <br /><br />
+
+    <form>
+      <input type="text" autofocus />
+      <input type="submit" value="GÖNDER" />
+    </form>
+    <br /><br />
+
+    <br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+  </body>
+</html>

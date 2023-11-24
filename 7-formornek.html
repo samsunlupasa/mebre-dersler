@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uygulama</title>
+</head>
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Kişisel Bilgiler</legend>
+            <label>Ad: </label> <input type="text" placeholder="Ad"/><br><br>
+            <label>Soyad: </label> <input type="text" /><br><br>
+            <label>Cinsiyet: </label> 
+            <input type="radio" name="cinsiyet"/> <label>Kadın</label>
+            <input type="radio" name="cinsiyet"/> <label>Erkek</label>
+            <input type="radio" name="cinsiyet"/> <label>Diğer</label> <br><br>
+            <label>Doğum Tarihi</label> <input type="date" min="1990-01-01" max="2010-01-01" /> <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>İletişim Bilgileri</legend>
+            <label>E-posta: </label> <input type="email" /><br><br>
+            <label>Telefon: </label> <input type="text" /><br><br>
+            <label>Adres: </label> <textarea cols="50" rows="5"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Eğitim Bilgileri</legend>
+            <label>En Yüksek Tamamlanan Eğitim Seviyesi: </label>
+            <select>
+                <option>İlkokul</option>
+                <option>Ortaokul</option>
+                <option>Lise</option>
+                <option>Üniversite</option>
+            </select><br><br>
+            <label>Bilinen Diller: </label>
+            <input type="checkbox" /> <label>Türkçe</label> 
+            <input type="checkbox" /> <label>İngilizce</label> 
+            <input type="checkbox" /> <label>Almanca</label> 
+        </fieldset>
+
+        <fieldset>
+            <legend>Kariyer Bilgileri</legend>
+            <label>Şu anda çalışıyor musunuz?</label> 
+            <input type="radio" name="answer"/> <label>Evet</label>
+            <input type="radio" name="answer"/> <label>Hayır</label><br><br>
+            <label>Meslek</label> <input type="text" />
+        </fieldset>
+
+        <fieldset>
+            <legend>İlgi Alanları</legend>
+            <label>İlgi alanlarınızı seçin: </label><br>
+            <select multiple>
+                <option>Spor</option>
+                <option>Müzik</option>
+                <option>Teknoloji</option>
+                <option>Sanat</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Ekstra Bilgiler</legend>
+            <label>İller</label> <input list="sehirler" />
+            <datalist id="sehirler">
+                <option value="İstanbul">
+                <option value="Ankara">
+                <option value="İzmir">
+            </datalist> <br><br>
+            <label>Özgeçmiş yükle: </label> <input type="file" multiple accept=".pdf,.doc,.docx,.xls,.jpeg"/>
+        </fieldset>
+
+        <input type="submit" value="GÖNDER" />
+        <input type="reset" value="TEMİZLE" />
+    </form>
+    
+</body>
+</html>
